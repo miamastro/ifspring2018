@@ -1,0 +1,19 @@
+
+body{
+	text-align: justify;
+	text-align:  center;
+	font-family: "courier new";
+	background: linear-gradient(white, silver);
+}
+p.italic{
+	font-style: italic;
+}
+p{
+	font-size: .75em;
+}
+br{
+	line-height: 10px;
+}
+h1{
+	margin: -12px;
+}
