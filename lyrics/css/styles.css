@@ -1,0 +1,22 @@
+body{
+	font-family: 'Archivo Narrow', Sans-serif;
+	font-weight: 500;
+	display: block;
+	margin-left: 120px;
+	background-color: grey;
+}
+h1{
+	display: block;
+	font-size: 100px;
+}
+h2{
+	font-size: 60px;
+}
+.original {
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.revised {
+	display: inline-block;
+}
