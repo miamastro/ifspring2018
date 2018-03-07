@@ -1,0 +1,80 @@
+body{
+	font-family: 'Roboto', Sans-serif;
+	font-weight: 500;
+	margin: 0;
+}
+#song_title{
+	background-image: url('../images/goodolddays.jpg');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	padding: 90px;
+	padding-top: 75px;
+	padding-bottom: 115px;
+}
+h1{
+	font-size: 110px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	line-height: 4px;
+	text-shadow: 3px 3px black;
+}
+h2{
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-shadow: 2px 2px black;
+}
+h3{
+	font-size: 15px;
+	margin-bottom: 0px;
+	font-style: italic;
+}
+p{
+	margin-top: 0px;
+}
+#middle{
+	background-color: white;
+/*	width: 960px;*/
+	height: 700px;
+	margin: auto;
+	margin-top: 0px;
+	padding-top: 30px;
+}
+#middle .song_lyrics_left{
+	display: block;
+	float:left;
+	width: 325px;
+	margin: auto;
+	margin-left: 300px;
+	font-size: 12px;
+	margin-top: 0px;
+}
+#middle .song_lyrics_right{
+	display: block;
+	float:left;
+	width: 325px;
+	margin: auto;
+	margin-left: 50px;
+	font-size: 12px;
+	margin-top: 0px;
+}
+#bottom{
+	display: block;
+	background-color: #dbc67a;
+	margin: auto;
+	height: 450px;
+}
+iframe{
+	display: block;
+	margin: auto;
+	height: 400px;
+	width: 700px;
+	padding-top: 25px;
+	margin-left: 300px;
+	margin-right: 300px;
+}
