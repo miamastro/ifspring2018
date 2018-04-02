@@ -1,0 +1,108 @@
+a{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 100;
+}
+#Ron{
+	background-image: url('../images/Ron.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 0;
+}
+#Ron h2{
+	font-family: sans-serif;
+	font-size: 40px;
+	color: white;
+	margin-left: 75px;
+	margin-right: 75px;
+	text-shadow: 2px 2px 5px black;
+}
+#Ron h3{
+	font-family: sans-serif;
+	font-size: 25px;
+	color: white;
+	text-align: right;
+	margin-left: 75px;
+	margin-right: 75px;
+	text-shadow: 2px 2px 5px black;
+}
+#Leslie{
+	background-image: url('../images/Leslie.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 0;
+}
+#Leslie h2{
+	font-family: sans-serif;
+	font-size: 35px;
+	color: white;
+	text-align: right;
+	margin-right: 75px;
+	text-shadow: 2px 2px 5px black;
+}
+#Leslie h3{
+	font-family: sans-serif;
+	font-size: 20px;
+	color: white;
+	text-align: right;
+	margin-left: 75px;
+	margin-right: 75px;
+	text-shadow: 2px 2px 5px black;
+}
+#Tom{
+	background-image: url('../images/Tom.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 0;
+}
+#Tom h2{
+	font-family: sans-serif;
+	font-size: 35px;
+	color: white;
+	margin-left: 75px;
+	margin-right: 75px;
+	text-shadow: 2px 2px 5px black;
+}
+#Tom h3{
+	font-family: sans-serif;
+	font-size: 20px;
+	color: white;
+	text-align: right;
+	margin-left: 75px;
+	margin-right: 100px;
+	text-shadow: 2px 2px 5px black;
+}
+@media screen and (max-width: 480px){
+	/*#Ron {
+		position: relative;
+	}
+	h2{
+		font-size: .5rem;
+	}
+	#Leslie{
+		background-position: 50%;
+	}*/
+	#Leslie h2{
+		font-size: 20px;
+		text-align: center;
+	}
+}
