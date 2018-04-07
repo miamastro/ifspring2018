@@ -10,6 +10,7 @@ a{
 #Ron{
 	background-image: url('../images/Ron.jpg');
 	background-size: cover;
+	background-position: right;
 	background-repeat: no-repeat;
 	position: absolute;
 	top: 0;
@@ -66,6 +67,7 @@ a{
 #Tom{
 	background-image: url('../images/Tom.png');
 	background-size: cover;
+	background-position: left;
 	background-repeat: no-repeat;
 	position: absolute;
 	top: 0;
@@ -92,15 +94,12 @@ a{
 	text-shadow: 2px 2px 5px black;
 }
 @media screen and (max-width: 480px){
-	/*#Ron {
-		position: relative;
+	#Ron h2{
+		font-size: 30px;
 	}
-	h2{
-		font-size: .5rem;
+	#Tom h2{
+		font-size: 20px;
 	}
-	#Leslie{
-		background-position: 50%;
-	}*/
 	#Leslie h2{
 		font-size: 20px;
 		text-align: center;
